@@ -1,0 +1,22 @@
+{
+  "name": "minivite",
+  "module": "miniVite.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run miniVite.js",
+    "watch": "bun run --watch ./miniVite/server.js "
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "dayjs": "^1.11.11",
+    "lodash-es": "^4.17.21",
+    "picocolors": "^1.0.1",
+    "ws": "^8.17.0"
+  }
+}
